@@ -1,0 +1,83 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+/* Navbar Styles */
+header {
+  background-color: #bd09f4;
+  box-shadow: 0 2px 5px rgba(247, 249, 250, 0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+/* Left Section: Logo */
+.nav-left .logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1a202c; /* Dark color for the 'B' logo */
+  text-decoration: none;
+}
+
+/* Center Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  font-size: 16px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1a202c;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #0073e6; /* Blue color for hover effect */
+}
+
+/* Right Section: GitHub & Twitter Logos */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-right a {
+  font-size: 20px;
+  color: #f4e0e0;
+  transition: color 0.3s ease;
+}
+
+.nav-right a:hover {
+  color: #1da1f2; /* Twitter blue for hover effect */
+}
+
+.nav-right .github-logo {
+  font-size: 24px; /* Bigger size for GitHub logo */
+}
+
+.nav-right .twitter-logo {
+  font-size: 24px; /* Bigger size for Twitter logo */
+}
