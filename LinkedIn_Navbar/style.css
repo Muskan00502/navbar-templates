@@ -1,0 +1,170 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: rgb(250, 244, 244);
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 2px 5px 5px rgba(175,172,172,0.5);
+}
+.nav-left .logo{
+    width: 50px;
+}
+.nav-left .logo img{
+    width: 100%;
+}
+nav .nav-right img{
+width: 20px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 92px;
+    margin: 0 auto;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-left .nav-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nav-left .nav-search input{
+color: #fff;
+} */
+
+/* Reset */
+/* Reset */
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f3f2ef;
+  }
+  
+  /* Header */
+  header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+  }
+  
+  /* Left Section */
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-grow: 1; /* Ensures the left section takes up available space */
+  }
+  
+  .nav-left .logo{
+    width: 50px;
+}
+.nav-left .logo img{
+    width: 100%;
+}
+nav .nav-right img{
+width: 20px;
+}
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #eef3f8;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .search-bar i {
+    color: #666;
+    margin-right: 10px;
+  }
+  
+  .search-bar input {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  /* Right Section */
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .nav-item {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-item i {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .nav-item p {
+    margin-top: 3px;
+    font-size: 12px;
+  }
+  
+  .nav-item:hover {
+    color: #0077b5;
+  }
+  
+  /* Profile Section */
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .profile-img {
+    height: 35px; /* Adjusted size */
+    width: 35px;  /* Adjusted size */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px; /* Ensures some space between the image and text */
+  }
+  
+  
