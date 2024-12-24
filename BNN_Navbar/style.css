@@ -1,0 +1,96 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f9f9f9;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #3e3c3c;
+    border-bottom: 2px solid #353333;
+    padding: 10px 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Left Section - Logo */
+  .nav-left .logo img {
+    width: 100px;
+  }
+  
+  /* Center Section - Links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    font-size: 16px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #f5ecec;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #bb1919; /* BBC red hover color */
+  }
+  
+  /* Right Section */
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .nav-right .sign-in {
+    font-size: 16px;
+    text-decoration: none;
+    color: #f5ebeb;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-right .sign-in:hover {
+    color: #bb1919;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
+  
+  .search-bar input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .search-bar i {
+    color: #666;
+    font-size: 16px;
+  }
+  
